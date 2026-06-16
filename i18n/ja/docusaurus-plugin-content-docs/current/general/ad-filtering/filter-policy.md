@@ -111,6 +111,7 @@ AdGuardの広告ブロックフィルタには以下が含まれます:
 AdGuardの追跡防止フィルタには以下が含まれます:
 
 - AdGuard 追跡防止フィルタ
+- AdGuard Mail Tracking Protection filter
 - AdGuard URL追跡防止フィルタ
 
 ### これらのフィルタの目的
@@ -129,6 +130,8 @@ AdGuardの追跡防止フィルタには以下が含まれます:
 - Google Chromeのプライバシーサンドボックス機能、およびトラッキングに使用されるプライバシーサンドボックスのフォーク（Google Topics API、Protected Audience API）
 
 「**AdGuard URL追跡防止フィルタ**」は、ウェブアドレスからトラッキングパラメータを削除するように設計されています。
+
+The **Mail Tracking Protection filter** blocks tracking pixels embedded in emails to prevent senders from monitoring when you open messages.
 
 ### 制限と例外
 

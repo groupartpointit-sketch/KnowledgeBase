@@ -111,6 +111,7 @@ AdGuard 广告拦截的过滤器包含以下过滤器：
 AdGuard 跟踪保护过滤器包含以下过滤器：
 
 - AdGuard 防跟踪保护过滤器
+- AdGuard Mail Tracking Protection filter
 - AdGuard URL 跟踪过滤器
 
 ### 过滤器的用途
@@ -129,6 +130,8 @@ AdGuard 跟踪保护过滤器包含以下过滤器：
 - Google 浏览器的隐私沙盒功能及其用于跟踪的分叉（Google Topics API、受保护受众 API）
 
 **URL 跟踪过滤器**旨在移除网址中的跟踪参数。
+
+The **Mail Tracking Protection filter** blocks tracking pixels embedded in emails to prevent senders from monitoring when you open messages.
 
 ### 限制及例外
 

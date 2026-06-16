@@ -26,6 +26,7 @@ sidebar_position: 2
     - **その他の迷惑要素フィルタ**は、一般的な迷惑要素に該当しない迷惑な要素をWebページ上でブロックします。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt)
 
 - **検索広告と自己宣伝のブロック解除フィルタ**は、ユーザーにとって有益と思われる広告のブロックを解除します。 このフィルタの詳細については、 [このページ](../search-ads)をご覧ください。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt)
+- **Mail Tracking Protection** blocks tracking pixels embedded in emails to prevent senders from monitoring when you open messages and collecting information about your device or activity. [View rules](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_25_Mail_Tracking_Protection/filter.txt)
 - **AdGuard ロシア語フィルタ**は、ロシア語のウェブサイトから広告を削除します。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt)
 - **AdGuard ドイツ語フィルタ**は、ドイツ語のウェブサイトから広告を削除します。 元々は[EasyList Germany](https://easylist.to/)フィルタがベースになっており、その後ユーザーからのクレームを元に当社で修正しているものです。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt)
 - **AdGuard フランス語フィルタ**は、フランス語のウェブサイトから広告を削除します。 元々は[Liste FR](https://forums.lanik.us/viewforum.php?f=91)フィルタがベースになっており、その後ユーザーからのクレームを元に当社で修正しているものです。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt)

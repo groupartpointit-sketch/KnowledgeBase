@@ -9,50 +9,71 @@ Tento článek je o Rozšíření prohlížeče AdGuard, které chrání pouze v
 
 :::
 
-Blokování reklam je jednoznačně klíčovou funkcí každého blokátoru reklam, Rozšířené prohlížeče AdGuard není výjimkou. Blokování reklam je založeno na filtrech — sadách pravidel napsaných ve speciálním jazyce. Tato pravidla určují, které prvky mají být blokovány a které ne. AdGuard interpretuje pravidla a na jejich základě upravuje webové požadavky. V důsledku toho se na vašich webových stránkách přestanou zobrazovat reklamy.
+- [Custom filters](#custom-filters)
+- [User rules](#user-rules)
+- [Allowlist](#allowlist)
 
-![Filters \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_filters.png)
+Blocking ads is the core functionality of any ad blocker, and AdGuard Browser Extension is no exception. Ad blocking is based on filters — sets of rules written in a special language. These rules define which page elements should be blocked and which should not. AdGuard interprets these rules and modifies web requests accordingly. As a result, you stop seeing ads on your webpages.
 
-Všechny filtry jsou seskupeny podle své role. Existují například kategorie filtrů pro blokování reklam, filtry pro ochranu soukromí, filtry související se sociálními médii atd. Můžete povolit jednotlivé filtry nebo celou skupinu najednou.
+![Filters \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/filters.png)
 
-![Ad blocking filters \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_filters1.png)
+All filters are grouped by category based on their role:
 
-## Vlastní filtry
+- Ad blocking: Block various types of advertisements
+- Privacy: Block online trackers and analytical systems to protect your data
+- Social widgets: Block social media elements like _Like_ and _Share_ buttons
+- Annoyances: Block irritating web elements, such as cookie notices, third-party widgets, or in-page popups
+- Security: Block requests to phishing and malicious websites
+- Other: Contain miscellaneous filters that do not fit into the main categories
+- Language-specific: Block ads on websites in specific languages
+- Custom: Allow you to add your own filters from a local file or URL
 
-Zatímco funkce ostatních skupin filtrů jsou víceméně jasné, existuje skupina s názvem _Vlastní_, která může vyvolat další otázky.
+You can enable either individual filters or entire groups at once.
 
-![Custom filters \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_custom_filters.png)
+![Security filters \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/security_filters.png)
 
-Na této kartě můžete přidat filtry, které ve výchozím nastavení rozšíření neobsahuje. Na internetu je k dispozici spousta [veřejně dostupných filtrů](https://filterlists.com). Navíc můžete vytvářet a přidávat vlastní filtry. Ve skutečnosti si můžete vytvořit libovolnou sadu filtrů a přizpůsobit blokování reklam podle svých představ.
+## Custom filters {#custom-filters}
 
-Chcete-li přidat filtr, stačí kliknout na _Přidat vlastní filtr_, zadat adresu URL nebo cestu k souboru filtru, který chcete přidat a kliknout na _Další_.
+While the features of other filter groups are more or less self-explanatory, there is a group called _Custom_ that may raise additional questions.
 
-![Add a custom filter \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_custom_filters1.png)
+![Custom filters \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/custom_filters.png)
 
-Vlastní filtry se aktualizují samostatně, takže vaše filtrování zůstává účinné a aktuální, aniž by bylo nutné aktualizovat rozšíření.
+In this tab, you can add filters that are not included in the extension by default. There are plenty of [publicly available filters on the Internet](https://filterlists.com). Moreover, you can create and add your own filters. In fact, you can build any set of filters and customize ad blocking the way you like.
+
+To add a filter, just click _Add custom filter_, enter the URL or the file path of the filter you want to be added and click _Next_.
+
+![Add a custom filter \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/add_filter.png)
+
+Custom filters update independently, keeping your protection effective and up to date without requiring extension updates.
 
 ## Uživatelská pravidla {#user-rules}
 
-_Uživatelská pravidla_ jsou další nástroj, který vám pomůže přizpůsobit blokování reklam.
+_User rules_ is another tool that helps you customize the blocking of ads.
 
-![User rules \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_user_rules.png)
+![User rules \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/user_rules.png)
 
-Nová pravidla lze přidávat několika způsoby. Nejjednodušší je prostě zadat pravidlo, ale vyžaduje to určitou znalost [syntaxe pravidel](/general/ad-filtering/create-own-filters).
+There are several ways to add new rules. The most straightforward is to just type a rule in, but it requires some knowledge of the [rule syntax](/general/ad-filtering/create-own-filters).
 
-Seznam filtrů připravený k použití můžete importovat také z textového souboru. **Dbejte na to, aby byla jednotlivá pravidla oddělena od sebe zalomením řádků.** Všimněte si, že import seznamu filtrů připravených k použití je vhodnější provést na kartě Vlastní filtry.
+You can import a ready-to-use filter list from a text file as well. **Make sure that different rules are separated by line breaks.**
 
-Kromě toho můžete exportovat vlastní pravidla filtrování. Tato možnost je vhodná pro přenos seznamu pravidel mezi prohlížeči nebo zařízeními.
+:::note
 
-Když přidáte webovou stránku na Seznam povolených (více o tom níže), nebo použijete nástroj Asistent pro skrytí prvku na stránce, uloží se příslušné pravidlo také do _Uživatelských pravidel_.
+Importing a ready-to-use filter list is better done in the _Custom filters_ tab.
 
-## Seznam povolených
+:::
 
-_Seznam povolených_ se používá k vyloučení určitých webových stránek z filtrování. Pravidla blokování se na webové stránky ze seznamu nevztahují.
+You can export your own filtering rules. This option is good for transferring your list of rules between browsers or devices.
 
-![Allowlist \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_allowlist.png)
+When you add a website to _Allowlist_ or use the Assistant tool to hide an element on a page, the corresponding rule is automatically saved in _User rules_.
 
-_Seznam povolených_ lze také obrátit: reklamy můžete odblokovat všude kromě webových stránek přidaných do tohoto seznamu. Chcete-li to provést, povolte možnost _Invertovat seznam povolených_. Než se funkce zapne, zobrazí se potvrzovací dialogové okno, které zabrání náhodnému spuštění a vysvětlí, co se stane.
+## Seznam povolených {#allowlist}
 
-![Invert allowlist \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_allowlist1.png)
+_Allowlist_ is used to exclude specific websites from filtering. None of the blocking rules will apply to the websites on this list.
 
-Můžete také importovat a exportovat stávající seznamy povolených. To je užitečné například v případě, že chcete v každém prohlížeči použít stejná pravidla pro povolení.
+![Allowlist \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/allowlist.png)
+
+_Allowlist_ can also be inverted, allowing you to unblock ads everywhere except on the websites added to this list. To do this, go to _Additional settings_ and enable  _Invert Allowlist_. Before it activates, a confirmation dialog will appear to explain how it works and prevent accidental activation.
+
+![Invert allowlist \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/invert_allowlist_dialog.png)
+
+You can also import and export existing allowlists. It is useful if you want to apply the same rules across all your browsers.

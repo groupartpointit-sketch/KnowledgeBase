@@ -111,6 +111,7 @@ Das Ziel von Werbeblockern ist es, alle Arten von Werbung auf Websites, in Apps 
 Die AdGuard-Filter zum Schutz vor Tracking enthalten:
 
 - AdGuard Tracking-Schutzfilter
+- AdGuard Mail Tracking Protection filter
 - AdGuard URL-Tracking-Filter
 
 ### Der Zweck dieser Filter
@@ -129,6 +130,8 @@ Was genau wird durch diesen Filter blockiert?
 - Datenschutz-Sandbox-Funktionalität in Google Chrome und seine Ableger, die für das Tracking verwendet werden (Google Topics API, Protected Audience API)
 
 Der **URL-Tracking-Filter** wurde entwickelt, um Tracking-Parameter aus Webadressen zu entfernen
+
+The **Mail Tracking Protection filter** blocks tracking pixels embedded in emails to prevent senders from monitoring when you open messages.
 
 ### Beschränkungen und Ausnahmen
 

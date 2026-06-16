@@ -9,14 +9,14 @@ Our dev team would like to thank the developers of this third-party software, ou
 
 This is the list of libraries and other resources that really helped us with AdGuard software development process.
 
-## AdGuard for Windows {#win}
+## AdGuard til Windows {#win}
 
 - SQLLite database engine: [sqlite.org](https://sqlite.org)
 - ADO.NET provider for SQLite: [system.data.sqlite.org/index.html/doc/trunk/www/index.wiki](https://system.data.sqlite.org/index.html/doc/trunk/www/index.wiki)
 - Json.NET — high-performance JSON framework for .NET: [www.newtonsoft.com/json](https://www.newtonsoft.com/json)
 - AvalonEdit — WPF-based text editor component: [avalonedit.net](https://avalonedit.net)
 
-## AdGuard for Mac {#mac}
+## AdGuard til Mac {#mac}
 
 - Red Sweater Software, LLC for RSVerticallyCenteredTextFieldCell component: [https://www.red-sweater.com/blog/148/what-a-difference-a-cell-makes](https://www.red-sweater.com/blog/148/what-a-difference-a-cell-makes)
 - Ilija Tovilo for ITProgressIndicator component: [github.com/iluuu1994/ITProgressIndicator](https://github.com/iluuu1994/ITProgressIndicator)
@@ -28,7 +28,7 @@ This is the list of libraries and other resources that really helped us with AdG
 - Bartosz Janda for Acextract component: [github.com/bartoszj/acextract](https://github.com/bartoszj/acextract)
 - FLOPageViewController: [github.com/floschliep/FLOPageViewController](https://github.com/floschliep/FLOPageViewController)
 
-## AdGuard for Android {#android}
+## AdGuard til Android {#android}
 
 - Logback-android by Tony19: [tony19.github.io/logback-android](https://tony19.github.io/logback-android)
 - Otto by Square: [https://square.github.io/otto](https://square.github.io/otto)
@@ -36,7 +36,7 @@ This is the list of libraries and other resources that really helped us with AdG
 - MaterialDateRangePicker by Supratim Chakraborty: [github.com/borax12/MaterialDateRangePicker](https://github.com/borax12/MaterialDateRangePicker)
 - HelloCharts by Leszek Wach: [github.com/lecho/hellocharts-android](https://github.com/lecho/hellocharts-android)
 
-## AdGuard for iOS {#ios}
+## AdGuard til iOS {#ios}
 
 - Reachability component by Tony Million: [github.com/tonymillion/Reachability](https://github.com/tonymillion/Reachability)
 - Fmdb component by August «Gus» Mueller: [github.com/ccgus/fmdb](https://github.com/ccgus/fmdb)
@@ -61,7 +61,7 @@ This is the list of libraries and other resources that really helped us with AdG
 - zod: [github.com/colinhacks/zod](https://github.com/colinhacks/zod)
 - swc: [github.com/swc-project/swc](https://github.com/swc-project/swc)
 
-## AdGuard for Safari {#safari}
+## AdGuard til Safari {#safari}
 
 - ace: [github.com/ajaxorg/ace](https://github.com/ajaxorg/ace)
 - adm-zip: [github.com/cthackers/adm-zip](https://github.com/cthackers/adm-zip)
@@ -86,7 +86,7 @@ This is the list of libraries and other resources that really helped us with AdG
 - request: [github.com/request/request](https://github.com/request/request)
 - require-dir: [github.com/aseemk/requireDir](https://github.com/aseemk/requireDir)
 
-## AdGuard Browser Assistant {#assistant}
+## AdGuard Browser Assistent {#assistant}
 
 - React: [github.com/facebook/react](https://github.com/facebook/react)
 - webextension-polyfill: [github.com/mozilla/webextension-polyfill](https://github.com/mozilla/webextension-polyfill)
@@ -113,7 +113,7 @@ This is the list of libraries and other resources that really helped us with AdG
 - Chromium: [github.com/chromium/chromium/blob/master/LICENSE](https://github.com/chromium/chromium/blob/master/LICENSE)
 - Detours: [github.com/microsoft/Detours/blob/main/LICENSE.md](https://github.com/microsoft/Detours/blob/main/LICENSE.md)
 - eDistantObject: [github.com/google/eDistantObject/blob/master/LICENSE](https://github.com/google/eDistantObject/blob/master/LICENSE)
-- FF/FFOS libs by Simon Zolin: [github.com/stsaz/ffbase/blob/master/README.md](https://github.com/stsaz/ffbase/blob/master/README.md)
+- FF/FFOS libs — Simon Zolin: [github.com/stsaz/ffbase/blob/master/README.md](https://github.com/stsaz/ffbase/blob/master/README.md)
 - Google test: [github.com/google/googletest/blob/master/LICENSE](https://github.com/google/googletest/blob/master/LICENSE)
 - http-parser: [github.com/nodejs/http-parser/blob/master/LICENSE-MIT](https://github.com/nodejs/http-parser/blob/master/LICENSE-MIT)
 - jsmn: [github.com/zserge/jsmn/blob/master/LICENSE](https://github.com/zserge/jsmn/blob/master/LICENSE)
@@ -171,14 +171,14 @@ Also a huge thanks and gratitude to all beta testers and other engaged users, wh
 - steve1209 — beta tester
 - streetwolf — beta tester
 - superlex — helps us with scriptlets, filters, and AdGuard for Safari
-- TayTayTheKiller — beta tester
-- [TPS](https://github.com/TPS) — bug finder, filter contributor
-- Yuki2718 — actively contributes to AdGuard filters
-- zznosar — active beta tester focused on AdGuard for iOS
-- Sergey Zozulya (sviperz) — active member of our Telegram group, beta tester
+- TayTayTheKiller — betatester
+- [TPS](https://github.com/TPS) — fejlfinder, filterbidragsyder
+- Yuki2718 — bidrager aktivt til AdGuard-filtre
+- zznosar — aktiv betatester fokuseret på AdGuard til iOS
+- Sergey Zozulya (sviperz) — aktivt medlem af vores Telegram-gruppe, betatester
 
 ---
 
-We also want to thank the [xda-developers users](https://forum.xda-developers.com/t/app-android-5-0-3-4-120-21-05-2020-adguard-no-root-ad-blocker.2958895/). Thank you for your helpful feedback!
+Vi vil også gerne takke [xda-developers-brugerne](https://forum.xda-developers.com/t/app-android-5-0-3-4-120-21-05-2020-adguard-no-root-ad-blocker.2958895/). Tak for den hjælpsomme feedback!
 
-We always appreciate comments from our users, especially constructive ones. You can always contact us to share your thoughts about AdGuard, request new features, and submit bugs. Join the [AdGuard Subreddit](https://reddit.com/r/adguard), [Xda-developers Forum](https://forum.xda-developers.com/t/app-android-5-0-3-4-120-21-05-2020-adguard-no-root-ad-blocker.2958895/) or visit our page on [GitHub](https://github.com/AdguardTeam).
+Vi sætter altid pris på kommentarer — især de konstruktive af slagsen — fra vores brugere. Du kan altid kontakte os for at dele dine tanker om AdGuard, anmode om nye funktioner og indsende fejl. Deltag i [AdGuard Subreddit](https://reddit.com/r/adguard), [Xda-developers Forum](https://forum.xda-developers.com/t/app-android-5-0-3-4-120-21-05-2020-adguard-no-root-ad-blocker.2958895/) eller besøg vores side på [GitHub](https://github.com/AdguardTeam).

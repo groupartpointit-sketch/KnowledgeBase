@@ -111,6 +111,7 @@ sidebar_position: 6
 Фильтры защиты от отслеживания AdGuard включают в себя:
 
 - Фильтр счётчиков и систем аналитики
+- AdGuard Mail Tracking Protection filter
 - Фильтр отслеживания по URL
 
 ### Назначение этих фильтров
@@ -129,6 +130,8 @@ sidebar_position: 6
 - Функции Privacy Sandbox в Google Chrome и его ответвлениях, используемых для отслеживания (Google Topics API, Protected Audience API)
 
 **Фильтр отслеживания URL** предназначен для удаления параметров отслеживания с веб-адресов
+
+The **Mail Tracking Protection filter** blocks tracking pixels embedded in emails to prevent senders from monitoring when you open messages.
 
 ### Ограничения и исключения
 

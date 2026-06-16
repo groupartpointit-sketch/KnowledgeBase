@@ -111,6 +111,7 @@ L'obiettivo dei filtri di blocco delle inserzioni è bloccare ogni tipo di inser
 I filtri di protezione dal tracciamento di AdGuard includono:
 
 - Filtro AdGuard Anti-Monitoraggio
+- AdGuard Mail Tracking Protection filter
 - Filtro AdGuard Anti-Monitoraggio URL
 
 ### Lo scopo di questi filtri
@@ -129,6 +130,8 @@ Cosa blocca:
 - Funzionalità Sandbox Privacy su Google Chrome e le sue biforcazioni utilizzate per il tracciamento (Google Topics API, la Protected Audience API)
 
 Il filtro **Filtro Anti-Monitoraggio URL** è progettato per rimuovere i parametri di monitoraggio dagli indirizzi web
+
+The **Mail Tracking Protection filter** blocks tracking pixels embedded in emails to prevent senders from monitoring when you open messages.
 
 ### Limitazioni ed eccezioni
 

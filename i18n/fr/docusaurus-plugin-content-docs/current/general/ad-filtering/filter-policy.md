@@ -111,6 +111,7 @@ L'objectif des filtres de blocage des publicités est de bloquer tous les types 
 Les filtres de protection contre le suivi d'AdGuard comprennent :
 
 - Filtre AdGuard de protection contre le suivi
+- AdGuard Mail Tracking Protection filter
 - Filtre AdGuard du suivi des URL
 
 ### L'objectif de ces filtres
@@ -129,6 +130,8 @@ Qu'est-ce qu'il bloque :
 - Fonctionnalité Privacy Sandbox dans Google Chrome et ses dérivés utilisés pour le suivi (Google Topics API, Protected Audience API)
 
 Le **Filtre de suivi des URL** est conçu pour supprimer les paramètres de suivi des adresses web
+
+The **Mail Tracking Protection filter** blocks tracking pixels embedded in emails to prevent senders from monitoring when you open messages.
 
 ### Limitations et exceptions
 

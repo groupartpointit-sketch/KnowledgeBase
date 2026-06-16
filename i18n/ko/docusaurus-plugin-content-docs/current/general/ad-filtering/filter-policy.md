@@ -111,6 +111,7 @@ AdGuard 광고 차단 필터에는 다음이 포함됩니다.
 AdGuard 추적 보호 필터에는 다음이 포함됩니다.
 
 - AdGuard 추적 보호 필터
+- AdGuard Mail Tracking Protection filter
 - AdGuard URL 추적 필터
 
 ### 이러한 필터의 목적
@@ -129,6 +130,8 @@ What it blocks:
 - Google 크롬의 개인정보 보호 샌드박스 기능 및 추적에 사용되는 포크(Google 토픽 API, 보호 대상 API)
 
 **URL 추적 필터**는 웹 주소에서 추적 매개 변수를 제거하도록 설계되었습니다.
+
+The **Mail Tracking Protection filter** blocks tracking pixels embedded in emails to prevent senders from monitoring when you open messages.
 
 ### 제한 및 예외
 
